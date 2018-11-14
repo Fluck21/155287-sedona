@@ -2,6 +2,7 @@
 
 * Студент: [Георгий Руденко](https://up.htmlacademy.ru/htmlcss/23/user/155287).
 * Наставник: [Роман Гуринович] (https://up.htmlacademy.ru/htmlcss/23/user/561773)
+* Наставник: [Роман Гуринович](https://up.htmlacademy.ru/htmlcss/23/user/561773)
 
 ---
 
