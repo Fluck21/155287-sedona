@@ -25,7 +25,7 @@
         <p>Рассмотрим 5 причин, по которым седона круче, чем грант каньон!</p>
 
         <section class="features">
-            <h2 class="visually-hidden">Reasons</h2>
+            <h2 class="visually-hidden">Приемущества</h2>
         <ul class="features-list">
             <li class="features-item">
                 <h3>Настоящий городок</h3>
@@ -93,15 +93,45 @@
          </ul>
        </section>
     
-    <section class="appoiment">
+    <section class="request">
         <h2>Заинтересовались?</h2>
-        <p class="appoiment-info">
+        <p class="request-info">
            Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинец в Седоне
         </p>
-
-        <! --Здесь будет форма -->
+        <button class="button">
+                Поиск гостиницы в Седоне
+        </button> 
     </section>
-
+    
+    <section class="modal modal-hotel-search">
+    <form class="hotel-search" method="post"
+        action="#" >
+        <p>
+            <label for="arrival-date"> Дата заезда</label>
+            <input id="arrival-date" type="text"
+                   name="date" placeholder="Дата заезда">
+        </p>
+        <p>
+            <label for="departure-date">Дата выезда</label>
+            <input id="departure-date" type="text"
+                   name="date" placeholder="Дата выезда">
+        </p>
+        <p>
+            <label for="adults">Взрослые:</label>
+            <input id="adults" type="number"
+                   name="number" placeholder="Введите число"> 
+        </p>
+        <p>
+            <label for="children">Дети:</label>
+            <input id="children" type="number"
+                   name="number" placeholder="Введите число"> 
+        </p>
+        <button type="submit" class=" button hotel-search-button">
+            Найти
+        </button>
+    </form>
+    </section>
+    
     <section class="Map">
        <! --Карта Cедоны -- >
        </section>
@@ -111,9 +141,15 @@
         <a class="hashtag" href="#">#Visitsedona</a> 
       
         <ul class="social-footer">
+            <button>
             <li><a class="social-footer-button" href="#">Твиттер</a> </li> 
+            </button>
+            <button>
             <li><a class="social-footer-button" href="#">Фейсбук</a> </li> 
+            </button>
+            <button>
             <li><a class="social-footer-button" href="#">Ютюб</a> </li> 
+            </button>
         </ul>
       
     <section class="footer-copyright">
