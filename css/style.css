@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: white;
+}
+  
+.site-navigation,
+.features-item,
+.recommendation-list,
+.recommendation-item,
+.liberty-list,
+.liberty-item,
+.social-footer,
+.hotels-list {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+  }
+
+.site-navigation a:hover {
+  color: #99cccc;
+ }
+
+.site-navigation a:visited {
+  color: #cccccc;
+}
+
+.search-hotel {
+  background-color: #766357;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 568px;
+  height: 83px;
+}
+
+.search-hotel:hover {
+  background-color: #604e43;
+}
+
+.search-hotel:visited {
+  background-color: #503e33;
+}
+
+.form-search {
+  background-color: #81b3d2;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 458px;
+  height: 58;
+}
+
+.form-search {
+  background-color: #81b3d2;
+}
+
+.form-search:hover {
+  background-color: #669ec0;
+}
+
+.form-search:visited {
+  background-color: #5496bd ;
+}
+
+.button-more {
+  background-color: #81b3d2;
+}
+
+.button-more:hover {
+  background-color: #669ec0;
+}
+
+.button-more:visited {
+  background-color: #5496bd ;
+}
+
+.more {
+  color: #ffffff;
+}
+
+.button-book {
+  background-color: #766357;
+}
+
+.button-book:hover {
+  background-color: #604e43;
+}
+
+.button-book:visited {
+  background-color: #503e33;
+}
+
+.book {
+  color: #ffffff;
+}
